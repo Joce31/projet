@@ -1,0 +1,71 @@
+body{
+    background-color: #1B252F;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.logo_compte{
+    height: 90px;
+    padding-right: 50px;
+}
+.acceuil{
+    padding-top: 20px;
+    width: 950px;
+    height: 500px;
+}
+.acceuil1{
+    padding-top: 20px;
+    width: 950px;
+    height: 500px;
+
+}
+.images_acceuil{
+    display: flex;
+}
+
+                                        /*debut du code pour nav*/
+
+nav{
+    padding-top: 19px;
+    width: 70vw;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center; 
+    margin: auto;
+}
+a{
+    position: relative;
+    text-decoration: none; 
+    color:#FFB001;
+    font-size: 18 px;
+    letter-spacing: .5px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+a:before,
+a:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background: #FFB001;
+    transition: .5s;   
+
+}
+a:after{
+    left: 0;
+    bottom: -10px;
+}
+a:before{
+    right: 0;
+    top:-10px;
+}
+a:hover:after,
+a:hover:before{
+    width: 100%;
+    
+}
+                                                    /*fin code nav*/
+                                                    
